@@ -1,0 +1,879 @@
+{
+  "model_id": "anon-m-7k3qx",
+  "export_manifest_sha256": "",
+  "robotwin_commit": "",
+  "model_source_commit": "",
+  "gpu": "",
+  "torch_version": "",
+  "cuda_version": "",
+  "driver_version": "",
+  "dtype": "bf16",
+  "chunk_size": 50,
+  "use_length": "25",
+  "chunk_ret": true,
+  "use_compile": false,
+  "tasks": [
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "adjust_bottle",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 5,
+        "successes": 1,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "beat_block_hammer",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 5,
+        "successes": 2,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "blocks_ranking_rgb",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 2,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "blocks_ranking_size",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 0,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "click_alarmclock",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 5,
+        "successes": 3,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "click_bell",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 5,
+        "successes": 2,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "dump_bin_bigbin",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 1,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "grab_roller",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 2,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "handover_block",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 1,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "handover_mic",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 2,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "hanging_mug",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 0,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "lift_pot",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 0,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "move_can_pot",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 0,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "move_pillbottle_pad",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 1,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "move_playingcard_away",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 3,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "move_stapler_pad",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 0,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "open_laptop",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 5,
+        "successes": 4,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "open_microwave",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 2,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "pick_diverse_bottles",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 1,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "pick_dual_bottles",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 0,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_a2b_left",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 0,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_a2b_right",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 0,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_bread_basket",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 3,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_bread_skillet",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 1,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_burger_fries",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 1,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_can_basket",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 1,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_cans_plasticbox",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 1,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_container_plate",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 2,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_dual_shoes",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 2,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_empty_cup",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 1,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_fan",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 0,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_mouse_pad",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 1,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_object_basket",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 5,
+        "successes": 3,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_object_scale",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 2,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_object_stand",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 3,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_phone_stand",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 1,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "place_shoe",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 1,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "press_stapler",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 5,
+        "successes": 4,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "put_bottles_dustbin",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 3,
+        "successes": 0,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "put_object_cabinet",
+      "clean": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "rotate_qrcode",
+      "clean": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "scan_object",
+      "clean": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "shake_bottle",
+      "clean": {
+        "status": "done",
+        "program_errors": null,
+        "policy_episodes": 5,
+        "successes": 2,
+        "initialization_failures": 0
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "shake_bottle_horizontally",
+      "clean": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "stack_blocks_three",
+      "clean": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "stack_blocks_two",
+      "clean": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "stack_bowls_three",
+      "clean": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "stack_bowls_two",
+      "clean": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "stamp_seal",
+      "clean": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      }
+    },
+    {
+      "randomized": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      },
+      "task": "turn_switch",
+      "clean": {
+        "status": "not_run",
+        "program_errors": null,
+        "policy_episodes": null,
+        "successes": null,
+        "initialization_failures": null
+      }
+    }
+  ],
+  "episode_record_example": {
+    "task": "adjust_bottle",
+    "setting": "clean",
+    "seed": null,
+    "instruction": "",
+    "status": "not_run",
+    "success": null,
+    "seconds": null,
+    "log_path": "",
+    "video_path": "",
+    "exception": null
+  }
+}
