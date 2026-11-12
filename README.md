@@ -94,9 +94,25 @@
 
 ## 🎬 演示视频
 
-**成功操作汇总（3 倍速）** —— [`videos/success_compilation_3x.mp4`](videos/success_compilation_3x.mp4)
+<p align="center">
+  <a href="videos/success_compilation_3x.mp4">
+    <img src="videos/previews/success_compilation_preview.gif" width="80%" alt="成功操作汇总（3 倍速）">
+  </a>
+  <br><i>成功操作汇总（3 倍速）—— 点击观看完整视频</i>
+</p>
 
-**基座 vs 训练后对比** —— [`click_bell`](videos/click_bell_base_vs_trained.mp4) · [`click_alarmclock`](videos/click_alarmclock_base_vs_trained.mp4)
+<table>
+<tr>
+<td align="center" width="50%">
+  <a href="videos/click_bell_base_vs_trained.mp4"><img src="videos/previews/click_bell_preview.gif" width="100%" alt="click_bell 基座 vs 训练后"></a>
+  <br><sub>click_bell：基座 vs 训练后（点击观看完整视频）</sub>
+</td>
+<td align="center" width="50%">
+  <a href="videos/click_alarmclock_base_vs_trained.mp4"><img src="videos/previews/click_alarmclock_preview.gif" width="100%" alt="click_alarmclock 基座 vs 训练后"></a>
+  <br><sub>click_alarmclock：基座 vs 训练后（点击观看完整视频）</sub>
+</td>
+</tr>
+</table>
 
 **逐任务成功 / 失败示例** —— [`videos/success_examples/`](videos/success_examples/)（含 `open_laptop` 的成功与失败对照、`shake_bottle`、`press_stapler` 等 8 段）
 

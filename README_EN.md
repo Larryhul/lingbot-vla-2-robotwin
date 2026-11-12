@@ -92,9 +92,27 @@ This is **not** a re-implementation of the model code — it is a competition re
 
 ## Demo Videos
 
-- **Success compilation (3× speed)** — [`videos/success_compilation_3x.mp4`](videos/success_compilation_3x.mp4)
-- **Base vs. trained** — [`click_bell`](videos/click_bell_base_vs_trained.mp4) · [`click_alarmclock`](videos/click_alarmclock_base_vs_trained.mp4)
-- **Per-task examples** — [`videos/success_examples/`](videos/success_examples/) (success/failure pairs for `open_laptop`, `shake_bottle`, `press_stapler`, and more)
+<p align="center">
+  <a href="videos/success_compilation_3x.mp4">
+    <img src="videos/previews/success_compilation_preview.gif" width="80%" alt="Success compilation (3x speed)">
+  </a>
+  <br><i>Success compilation (3× speed) — click for the full video</i>
+</p>
+
+<table>
+<tr>
+<td align="center" width="50%">
+  <a href="videos/click_bell_base_vs_trained.mp4"><img src="videos/previews/click_bell_preview.gif" width="100%" alt="click_bell base vs trained"></a>
+  <br><sub>click_bell: base vs. trained (click for full video)</sub>
+</td>
+<td align="center" width="50%">
+  <a href="videos/click_alarmclock_base_vs_trained.mp4"><img src="videos/previews/click_alarmclock_preview.gif" width="100%" alt="click_alarmclock base vs trained"></a>
+  <br><sub>click_alarmclock: base vs. trained (click for full video)</sub>
+</td>
+</tr>
+</table>
+
+**Per-task examples** — [`videos/success_examples/`](videos/success_examples/) (success/failure pairs for `open_laptop`, `shake_bottle`, `press_stapler`, and more)
 
 ## Method & Training
 
